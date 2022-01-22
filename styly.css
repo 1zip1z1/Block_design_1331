@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,500&display=swap');
+
+
+* {
+
+	font-family: 'Montserrat'
+	box-sizing: border-box;
+	transition: 0.3s  ease-in-out;
+}
+
+body {
+		margin: 0;
+ 
+}
+
+
+a {
+	text-decoration: none;
+
+}
+
+
+ul, ol{
+
+	padding: none;
+}
+
+h1 {
+	margin: 0;
+}
+
+
+li{
+	list-style: none;
+}
+
+.active_menu_link {
+	text-shadow: 10px -5px 4px rgba(255, 184, 154, 1);
+	text-transform: uppercase;
+}
+
+#wrapper {
+
+	margin: 0 auto;
+	width:1200px ;
+	background: #eee;
+}
+
+
+header h1 {
+	font-size:60px ;
+	text-align: center;
+	padding: 50px 0;
+	background: #B54DCF;
+	background: -webkit-linear-gradient(to right, #B54DCF 32%, #2ECF74 64%);
+	background: -moz-linear-gradient(to right, #B54DCF 32%, #2ECF74 64%);
+	background: linear-gradient(to right, #B54DCF 32%, #2ECF74 64%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+} 
+
+header nav {
+	overflow: hidden;
+}
+
+header nav a {
+	display: block;
+	float: left;
+	width: 236px;
+	text-align: center;
+	background: #000;
+	color: #fff;
+	padding: 25px 0;
+	border: 2px solid transparent ;
+
+}
+
+header nav a:hover {
+
+	background: #fff;
+	color: blue;
+	border: 2px solid #000; 
+}
+
+/*main styles*/
+main{
+	overflow: hidden;
+}
+
+.product_item {
+	width: 400px;
+	height: 400px;
+	float: left;
+	opacity: .2;
+
+}
+.product_item:hover {
+	opacity: 1;
+}
+
+.product_item img {
+	width: 100%;
+}
+
+footer {
+
+	background: #424242;
+padding: 50px  0;
+
+}
+
+footer p {
+width: 800px;
+margin: 0 auto;
+text-align: center;
+color: #ddd;
+
+}
+
+footer p:last-child {
+	margin-top:20px ;
+
+}
+
+footer p span {
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+
+
+
+/*Categories PAGE START*/
+#categories_page h2{
+
+	text-align: center;
+	font-size: 30px;
+	font-weight: 200;
+	margin: 50px 0 20px 0;
+}
+
+.cat_item {
+	width: 300px;
+	height: 300px;
+	float: left;
+	text-align: center;
+}
+
+.cat_item img {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}	
+
+
+.cat_item p {
+	font-size: 15px;
+	width: 200;
+	margin: 0 auto 0 auto;
+
+}
+
+
+.cat_item a{
+	display: block;
+	background: #000;
+	color: #fff;
+	width: 200;
+	margin: 0 auto;
+	padding: 10px 0;
+	border-radius: 25px;
+	border: 5px dotted red;
+
+}
+
+.cat_item a:hover {
+	border:5px solid #009688;
+	transition: 0.3 easy-in-out;
+	background: #fff;
+	color: #000;
+}
