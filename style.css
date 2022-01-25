@@ -144,7 +144,7 @@ footer p span {
 
 	text-align: center;
 	font-size: 30px;
-	font-weight: 200;
+	font-weight: 200px;
 	margin: 50px 0 20px 0;
 }
 
@@ -287,3 +287,53 @@ footer p span {
 	color:green;
 }
 
+/*Basket page start*/
+
+.basket_page_main h2{
+ 	text-align: center;
+	font-size: 30px;
+	font-weight: 200px;
+	margin: 50px 0 20px 0;
+
+}
+
+.basket_item {
+	width:400px;
+	height:520px;
+	float:left;
+	border:3px solid #424242;
+	transition:.01s ease_in_out;
+	overflow:hidden;
+}
+
+.basket_item img {
+	display: block;
+	width: 100%;
+} 
+.basket_item h3{
+	text-align: center;
+}
+
+
+.basket_item a{
+	text-align: center;
+	display: block;
+	background: #000;
+	color: #fff;
+	width: 200;
+	margin: 0 auto;
+	padding: 10px 0;
+	border-radius: 25px;
+	border: 5px dotted grey;
+}
+.basket_item a:hover {
+	border:5px solid #000;
+	transition: 0.3 easy-in-out;
+	background: #fff;
+	color: #000;
+}
+body p {
+	text-align: center;
+
+
+}
